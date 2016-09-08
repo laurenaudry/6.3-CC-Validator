@@ -1,26 +1,16 @@
-# FEE Boilerplate React/Bable/Webpack 
+# To Do
+- [] Start with copying over the boilerplate for react
+- [] Write the structure first
+ - [] Should render a basic credit card layout
+ - [] Only need to match one card type for this mode
+- [] Work on presentation second
+ - [] If any input (number, date, cvv, and name) is not valid then the border of said input should be red
+ - [] Name must be at least 8 characters in length to be valid
+ - [] If some, but not all, of the fields are filled out, the card should have a red border.
+- [] Play with validations of inputs and regex (think about the input tag's pattern attribute)
 
-## Initial Setup Gotchas with Babel and Webpack
-### DO NOT DO THESE WHEN STARTING NEW PROJECTS WHEN COPYING THIS REPO
-  - Install webpack `$ npm install --save-dev webpack`
-  - Run `$ npm install --save-dev babel-cli`
-  - Create `.babelrc` file `$ touch .babelrc`
-    ```js
-      {
-        "presets": ["es2015"]
-      }
-    ```
-  - Add to `scripts: {}` inside of `package.json` to specify input/output folders for babel to run
-  - `$ npm install --save-dev babel-loader babel-core babel-preset-es2015 babel-preset-react`
-  - `$ npm install --save-dev react react-dom`
 
 ## Development
   - `$ npm install -g webpack`
   - `$ npm install -g babel-cli`
   - `$ npm install -g webpack-dev-server`
-
-
-## Words
-  - CLI - Command Line Interface - Allows us to write commands in Terminal to execute functions (this is why we use `npm install -g`)
-  - Spec - is another word for a file with tests...
-  - Spec Helpers - reusable code (functions) for specs...
