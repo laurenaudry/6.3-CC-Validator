@@ -14,16 +14,18 @@ html {
   border-radius: 2rem;
   background: rgb(36, 118, 164);
   display: inline-block;
+  font-family: arial;
   padding-left: 3rem;
   height: 28rem;
   width: 45rem;
 }
 
 .cc_title {
-  font-size: 2rem;
+  font-size: 3rem;
+  color: white;
 }
 .cc_number {
-  margin-top: 8rem;
+  margin-top: 7rem;
   margin-bottom: 3rem;
   width: 35rem;
 }
