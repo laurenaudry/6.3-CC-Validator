@@ -1,3 +1,22 @@
 /*
   Main Stylesheet
 */
+html {
+  font-size: 62.5%
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credit__card {
+  box-sizing: border-box;
+  background-image: url("/assets/cc.jpeg");
+  background-color: gray;
+  display: inline-block;
+  padding-top: 15.2rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  height: 35rem;
+  width: 50rem;
+}
