@@ -32,3 +32,11 @@ html {
   margin-right: 2rem;
   length: 22rem;
 }
+
+.cc_number, .cc_name, .cc_exp {
+  outline-color: red;
+}
+
+.cc_numberValid, .cc_nameValid, .cc_expValid {
+  outline-color: green;
+}
