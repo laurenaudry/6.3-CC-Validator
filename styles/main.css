@@ -9,14 +9,26 @@ html {
   box-sizing: border-box;
 }
 
-.credit__card {
+.credit_card {
   box-sizing: border-box;
-  background-image: url("/assets/cc.jpeg");
-  background-color: gray;
+  border-radius: 2rem;
+  background: rgb(36, 118, 164);
   display: inline-block;
-  padding-top: 15.2rem;
-  padding-left: 5rem;
-  padding-right: 2rem;
-  height: 35rem;
-  width: 50rem;
+  padding-left: 3rem;
+  height: 28rem;
+  width: 45rem;
+}
+
+.cc_title {
+  font-size: 2rem;
+}
+.cc_number {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  width: 35rem;
+}
+
+.cc_name {
+  margin-right: 2rem;
+  length: 22rem;
 }

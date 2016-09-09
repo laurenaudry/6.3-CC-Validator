@@ -1,6 +1,6 @@
 # To Do
 - [x] Start with copying over the boilerplate for react
-- [] Write the structure first
+- [x] Write the structure first
  - [x] Should render a basic credit card layout
  - [x] Only need to match one card type for this mode
 - [] Work on presentation second
