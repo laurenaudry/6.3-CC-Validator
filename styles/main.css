@@ -40,3 +40,9 @@ html {
 .cc_numberValid, .cc_nameValid, .cc_expValid {
   outline-color: green;
 }
+
+.visa_logo {
+  height: 40px;
+  width: 55px;
+  margin-left: 34rem;
+}
